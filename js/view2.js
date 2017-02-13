@@ -142,8 +142,25 @@ var App = React.createClass({
           React.createElement(ColumnTwo, null),
           React.createElement(ColumnThree, null),
           React.createElement(ColumnFour, null)
+        ),
+      React.createElement(
+          "div",
+          { className: "row" },
+          React.createElement(VideoOne, null)
         )
       )
+    );
+  }
+});
+
+//videoOne
+var VideoOne = React.createClass({
+  displayName: "ColumnOne",
+  render: function render() {
+    return React.createElement(
+      "div",
+      { className: "column  col-xs-16 col-xs-offset-3 col-sm-8 col-sm-offset-2  col-md-8 col-md-offset-2" },
+      React.createElement( '')
     );
   }
 });

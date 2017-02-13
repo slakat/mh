@@ -375,3 +375,16 @@ button.slide {
 .circled.circle-svg {
   padding: 0 !important;
 }
+
+a#next {
+        background: #322877;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 80%;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    color: #fff;
+}
